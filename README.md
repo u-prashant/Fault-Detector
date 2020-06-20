@@ -35,7 +35,7 @@ Home Screen                |  Healthy Part             | Defective Part
 ## Modelling Experiments
 
 The dataset was very very small for any model to be trained upon especially if we are trying with deep learning models. There were approx 100 images of each class 
-(defective/healthy) which is very less and hence, a good accuracy cannot be expected. So, the first approach was to develop a beseline model and to determine the max. accuracy that can be obtained.
+(defective/healthy) which is very less and hence, a good accuracy cannot be expected. So, the first approach was to develop a some baseline model as a starting point and to check the accuracy we can get.
 
 ### Model 1 (Conv2D)
 **Architecture** <br/>
