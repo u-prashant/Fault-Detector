@@ -50,7 +50,7 @@ As the dataset for training was not sufficient, I thought of trying some pretrai
 * The custom layers were Flatten, Dense(256), Dropout and the output layer. These layers were added to make pretrained model compatible with our usecase.
 
 <br/> **Results** <br/>
-The results were better than the previous model. But *it had larger no of parameters and hence, more computation will be required during realtime prediciton*. The model was actually overfitting.
+The results were better than the previous model. But *it had larger no of parameters and hence, more computation will be required during realtime prediciton*. The model was actually overfitting with training accuracy of around 99% and testing accuracy around 81%.
 
 ### Model 3 (Model 2 + Some Image Processing)
 Tried various image augmentation techniques so as to avoid overfitting. Tried custom data generator from the existing data. Zoom out/in/image flipping/cropping were tried but the model failed more miserably. I manually went through the images and found out that the many images are taken randomnly so cropping and zoom out/in can remove the most important part of the image i.e. the cracked part. So, it cannot be used.
