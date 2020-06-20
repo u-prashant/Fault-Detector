@@ -57,6 +57,6 @@ Tried various image augmentation techniques so as to avoid overfitting. Tried cu
 
 
 ### Overall Analysis and Feedback
-1. Out of the all the experiments that were performed, Model 2 was kind of decent and currently, it is being used at the server side for crack detection.
+1. Out of the all the experiments that were performed, Model 2 was kind of decent but not good and currently, it is being used at the server side for crack detection until a new model with better results is formed. 
 2. If the plan is to automatically detect the cracks through image processing by the camera that is put above the belt where parts are being moved. Then, we can collect all the images from the camera angle, this way we can preprocess the image as well as generate artificial data for training by using various augmentation techniques like cropping or zooming and can avoid overfitting as well.
 3. There is a lot of scope in improving the results by trying other models or going through research papers of those who have already built models similar to this usecase.
